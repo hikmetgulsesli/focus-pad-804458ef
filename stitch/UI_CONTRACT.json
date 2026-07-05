@@ -1,0 +1,549 @@
+[
+  {
+    "screenId": "29ab41e4e59f4610b2326dd18753caae",
+    "screenTitle": "Record Editor - Focus Pad",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Record Operations",
+        "href": "#",
+        "line": 122
+      },
+      {
+        "type": "link",
+        "label": "Record Editor",
+        "href": "#",
+        "line": 128
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 134
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 142
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 148
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 119
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 218
+      },
+      {
+        "type": "button",
+        "label": "Record",
+        "line": 219
+      },
+      {
+        "type": "input",
+        "label": "Enter record title",
+        "inputType": "text",
+        "placeholder": "Enter record title",
+        "line": 186
+      },
+      {
+        "type": "input",
+        "label": "Detailed description of the record...",
+        "inputType": "textarea",
+        "placeholder": "Detailed description of the record...",
+        "line": 192
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 198
+      },
+      {
+        "type": "input",
+        "label": "text",
+        "inputType": "text",
+        "line": 206
+      },
+      {
+        "type": "form",
+        "label": "form",
+        "line": 182
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Record Operations",
+        "href": "#",
+        "line": 122
+      },
+      {
+        "type": "link",
+        "label": "Record Editor",
+        "href": "#",
+        "line": 128
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 134
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 142
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 148
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 119
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 218
+      },
+      {
+        "type": "button",
+        "label": "Record",
+        "line": 219
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Enter record title",
+        "inputType": "text",
+        "placeholder": "Enter record title",
+        "line": 186
+      },
+      {
+        "type": "input",
+        "label": "Detailed description of the record...",
+        "inputType": "textarea",
+        "placeholder": "Detailed description of the record...",
+        "line": 192
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 198
+      },
+      {
+        "type": "input",
+        "label": "text",
+        "inputType": "text",
+        "line": 206
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 13,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "631f2495b1cc4951b1ceafe24c938564",
+    "screenTitle": "Insights - Focus Pad",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Record Operations",
+        "href": "#",
+        "line": 145
+      },
+      {
+        "type": "link",
+        "label": "Record Editor",
+        "href": "#",
+        "line": 151
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 157
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 165
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 171
+      },
+      {
+        "type": "link",
+        "label": "Records",
+        "href": "#",
+        "line": 332
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 336
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 340
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 123
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 126
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 140
+      },
+      {
+        "type": "button",
+        "label": "Filter",
+        "line": 187
+      },
+      {
+        "type": "button",
+        "label": "Export Summary",
+        "line": 191
+      },
+      {
+        "type": "button",
+        "label": "View All",
+        "line": 263
+      },
+      {
+        "type": "button",
+        "label": "Review Rules",
+        "line": 317
+      },
+      {
+        "type": "button",
+        "label": "Adjust Schedule",
+        "line": 323
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Record Operations",
+        "href": "#",
+        "line": 145
+      },
+      {
+        "type": "link",
+        "label": "Record Editor",
+        "href": "#",
+        "line": 151
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 157
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 165
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 171
+      },
+      {
+        "type": "link",
+        "label": "Records",
+        "href": "#",
+        "line": 332
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 336
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 340
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 123
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 126
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 140
+      },
+      {
+        "type": "button",
+        "label": "Filter",
+        "line": 187
+      },
+      {
+        "type": "button",
+        "label": "Export Summary",
+        "line": 191
+      },
+      {
+        "type": "button",
+        "label": "View All",
+        "line": 263
+      },
+      {
+        "type": "button",
+        "label": "Review Rules",
+        "line": 317
+      },
+      {
+        "type": "button",
+        "label": "Adjust Schedule",
+        "line": 323
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 16,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "531d3788343d48d290ca6b7fb659ea30",
+    "screenTitle": "Record Operations - Focus Pad",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Record Operations",
+        "href": "#",
+        "line": 150
+      },
+      {
+        "type": "link",
+        "label": "Record Editor",
+        "href": "#",
+        "line": 154
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 158
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 164
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 168
+      },
+      {
+        "type": "button",
+        "label": "Search",
+        "line": 122
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 125
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 128
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 145
+      },
+      {
+        "type": "button",
+        "label": "Filters",
+        "line": 184
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 188
+      },
+      {
+        "type": "button",
+        "label": "Retry Load",
+        "line": 310
+      },
+      {
+        "type": "button",
+        "label": "Close preview",
+        "line": 323
+      },
+      {
+        "type": "button",
+        "label": "Edit",
+        "line": 382
+      },
+      {
+        "type": "button",
+        "label": "Approve",
+        "line": 385
+      },
+      {
+        "type": "input",
+        "label": "Search records...",
+        "inputType": "text",
+        "placeholder": "Search records...",
+        "line": 199
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Record Operations",
+        "href": "#",
+        "line": 150
+      },
+      {
+        "type": "link",
+        "label": "Record Editor",
+        "href": "#",
+        "line": 154
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 158
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 164
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 168
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Search",
+        "line": 122
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 125
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 128
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 145
+      },
+      {
+        "type": "button",
+        "label": "Filters",
+        "line": 184
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 188
+      },
+      {
+        "type": "button",
+        "label": "Retry Load",
+        "line": 310
+      },
+      {
+        "type": "button",
+        "label": "Close preview",
+        "line": 323
+      },
+      {
+        "type": "button",
+        "label": "Edit",
+        "line": 382
+      },
+      {
+        "type": "button",
+        "label": "Approve",
+        "line": 385
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Search records...",
+        "inputType": "text",
+        "placeholder": "Search records...",
+        "line": 199
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 16,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
