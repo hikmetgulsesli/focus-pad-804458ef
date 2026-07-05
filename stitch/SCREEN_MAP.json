@@ -1,0 +1,29 @@
+[
+  {
+    "screenId": "29ab41e4e59f4610b2326dd18753caae",
+    "name": "Record Editor - Focus Pad",
+    "type": "form",
+    "description": "Record Editor - Focus Pad screen",
+    "surfaceIds": [
+      "SURF_RECORD_EDITOR"
+    ]
+  },
+  {
+    "screenId": "631f2495b1cc4951b1ceafe24c938564",
+    "name": "Insights - Focus Pad",
+    "type": "app-screen",
+    "description": "Insights - Focus Pad screen",
+    "surfaceIds": [
+      "SURF_INSIGHTS"
+    ]
+  },
+  {
+    "screenId": "531d3788343d48d290ca6b7fb659ea30",
+    "name": "Record Operations - Focus Pad",
+    "type": "app-screen",
+    "description": "Record Operations - Focus Pad screen",
+    "surfaceIds": [
+      "SURF_RECORD_OPERATIONS"
+    ]
+  }
+]

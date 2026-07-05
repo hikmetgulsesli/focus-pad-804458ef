@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Record Editor - Focus Pad</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed": "#131b2e",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed-variant": "#3f465c",
+                        "secondary-container": "#dae2fd",
+                        "on-error-container": "#93000a",
+                        "inverse-primary": "#c3c0ff",
+                        "surface-container": "#e5eeff",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#eaf1ff",
+                        "secondary": "#565e74",
+                        "surface-container-low": "#eff4ff",
+                        "on-background": "#0b1c30",
+                        "tertiary-container": "#752c00",
+                        "tertiary": "#511c00",
+                        "inverse-surface": "#213145",
+                        "on-primary-container": "#a9a7ff",
+                        "on-primary-fixed-variant": "#3b35a7",
+                        "primary-fixed": "#e2dfff",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed": "#0f0069",
+                        "on-surface": "#0b1c30",
+                        "outline-variant": "#c8c4d5",
+                        "primary": "#1f108e",
+                        "on-surface-variant": "#464553",
+                        "surface-variant": "#d3e4fe",
+                        "background": "#f8f9ff",
+                        "on-tertiary-fixed": "#351000",
+                        "surface-container-high": "#dce9ff",
+                        "on-primary": "#ffffff",
+                        "on-secondary-container": "#5c647a",
+                        "surface-bright": "#f8f9ff",
+                        "primary-fixed-dim": "#c3c0ff",
+                        "primary-container": "#3730a3",
+                        "surface-container-highest": "#d3e4fe",
+                        "secondary-fixed-dim": "#bec6e0",
+                        "surface": "#f8f9ff",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed-variant": "#7a3003",
+                        "tertiary-fixed": "#ffdbcc",
+                        "error-container": "#ffdad6",
+                        "tertiary-fixed-dim": "#ffb694",
+                        "on-tertiary-container": "#fe9562",
+                        "surface-dim": "#cbdbf5",
+                        "secondary-fixed": "#dae2fd",
+                        "surface-tint": "#544fc0",
+                        "outline": "#777584"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "margin-desktop": "32px",
+                        "xl": "40px",
+                        "xs": "4px",
+                        "md": "16px",
+                        "base": "4px",
+                        "lg": "24px",
+                        "sm": "8px",
+                        "gutter": "16px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "mono-data": ["JetBrains Mono"],
+                        "display": ["Inter"],
+                        "body-md": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "headline-lg": ["Inter"],
+                        "body-sm": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "mono-data": ["13px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "display": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: #f8f9ff; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .input-focus-ring:focus { outline: none; border-color: #1f108e; box-shadow: 0 0 0 2px rgba(31, 16, 142, 0.1); }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex">
+<!-- Desktop Sidebar Navigation -->
+<nav class="bg-surface-container-low border-r border-outline-variant docked left-0 h-full w-64 fixed left-0 top-0 h-full flex flex-col p-md z-40 hidden md:flex">
+<div class="mb-lg">
+<h1 class="font-headline-md text-headline-md font-bold text-primary">Focus Pad</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Utility Management</p>
+</div>
+<button class="bg-primary text-on-primary font-body-sm text-body-sm font-semibold rounded-lg py-sm px-md mb-lg hover:bg-primary-container transition-colors">Create Record</button>
+<ul class="space-y-sm flex-1">
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="font-label-caps text-label-caps">Record Operations</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-sm px-sm py-sm bg-secondary-container text-on-secondary-container font-semibold rounded-lg scale-95 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined">edit_note</span>
+<span class="font-label-caps text-label-caps">Record Editor</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="#">
+<span class="material-symbols-outlined">query_stats</span>
+<span class="font-label-caps text-label-caps">Insights</span>
+</a>
+</li>
+</ul>
+<ul class="space-y-sm mt-auto pt-lg border-t border-outline-variant">
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="font-label-caps text-label-caps">Settings</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-sm px-sm py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-all" href="#">
+<span class="material-symbols-outlined">help</span>
+<span class="font-label-caps text-label-caps">Support</span>
+</a>
+</li>
+</ul>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 md:ml-64 flex flex-col min-h-screen">
+<!-- Mobile Top Nav -->
+<header class="bg-surface-container-lowest border-b border-outline-variant flex justify-between items-center w-full px-margin-mobile h-16 sticky top-0 z-50 md:hidden">
+<h1 class="font-headline-lg text-headline-lg font-bold text-primary">Focus Pad</h1>
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-on-surface-variant">search</span>
+<span class="material-symbols-outlined text-on-surface-variant">notifications</span>
+<span class="material-symbols-outlined text-on-surface-variant">settings</span>
+</div>
+</header>
+<!-- Editor Canvas -->
+<div class="flex-1 p-margin-mobile md:p-margin-desktop overflow-y-auto">
+<div class="max-w-3xl mx-auto">
+<!-- Header & Unsaved Changes -->
+<div class="flex justify-between items-end mb-lg pb-md border-b border-outline-variant">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-xs">Edit Record</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Update the details for this entry below.</p>
+</div>
+<div class="flex items-center gap-xs text-error">
+<span class="material-symbols-outlined text-[16px]">error</span>
+<span class="font-body-sm text-body-sm font-semibold">Unsaved changes</span>
+</div>
+</div>
+<!-- Form Layout -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-lg shadow-sm">
+<form class="space-y-lg">
+<!-- Title Field (Error State Example) -->
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface mb-xs" for="record-title">Title <span class="text-error">*</span></label>
+<input aria-invalid="true" class="w-full bg-surface-container-lowest border border-error rounded-DEFAULT p-sm font-body-md text-body-md text-on-background input-focus-ring" id="record-title" name="record-title" placeholder="Enter record title" type="text"/>
+<p class="font-body-sm text-body-sm text-error mt-xs">Title is required.</p>
+</div>
+<!-- Description Field -->
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface mb-xs" for="record-description">Description</label>
+<textarea class="w-full bg-surface-container-lowest border border-outline-variant rounded-DEFAULT p-sm font-body-md text-body-md text-on-background input-focus-ring resize-y" id="record-description" name="record-description" placeholder="Detailed description of the record..." rows="4"></textarea>
+</div>
+<!-- Status & Tags Row -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg">
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface mb-xs" for="record-status">Status <span class="text-error">*</span></label>
+<select class="w-full bg-surface-container-lowest border border-outline-variant rounded-DEFAULT p-sm font-body-md text-body-md text-on-background input-focus-ring appearance-none" id="record-status" name="record-status">
+<option value="draft">Draft</option>
+<option selected="" value="active">Active</option>
+<option value="archived">Archived</option>
+</select>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface mb-xs" for="record-tags">Tags (comma separated)</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant rounded-DEFAULT p-sm font-body-md text-body-md text-on-background input-focus-ring" id="record-tags" name="record-tags" type="text" value="Q3, Analytics, High Priority"/>
+<div class="flex gap-xs mt-sm flex-wrap">
+<span class="bg-surface-container-low text-on-surface-variant font-label-caps text-label-caps px-2 py-1 rounded-sm border border-outline-variant">Q3</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-caps text-label-caps px-2 py-1 rounded-sm border border-outline-variant">Analytics</span>
+<span class="bg-primary-container text-on-primary-container font-label-caps text-label-caps px-2 py-1 rounded-sm border border-primary-fixed-dim">High Priority</span>
+</div>
+</div>
+</div>
+</form>
+</div>
+<!-- Action Bar -->
+<div class="flex justify-end gap-md mt-lg">
+<button class="bg-surface-container-lowest text-on-surface font-body-sm text-body-sm font-semibold rounded-lg py-sm px-lg border border-outline-variant hover:bg-surface-container-low transition-colors">Cancel</button>
+<button class="bg-primary text-on-primary font-body-sm text-body-sm font-semibold rounded-lg py-sm px-lg hover:bg-primary-container transition-colors flex items-center gap-xs">
+<span class="material-symbols-outlined text-[18px]">save</span>
+                        Save Record
+                    </button>
+</div>
+</div>
+</div>
+</main>
+</body></html>
