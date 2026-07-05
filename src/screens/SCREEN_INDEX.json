@@ -1,0 +1,287 @@
+[
+  {
+    "screenId": "29ab41e4e59f4610b2326dd18753caae",
+    "title": "Record Editor - Focus Pad",
+    "componentName": "RecordEditorFocusPad",
+    "file": "src/screens/RecordEditorFocusPad.tsx",
+    "buttons": 3,
+    "inputs": 2,
+    "links": 5,
+    "actions": [
+      {
+        "id": "create-record-1",
+        "kind": "button",
+        "label": "Create Record",
+        "index": 0
+      },
+      {
+        "id": "cancel-2",
+        "kind": "button",
+        "label": "Cancel",
+        "index": 1
+      },
+      {
+        "id": "save-record-3",
+        "kind": "button",
+        "label": "Save Record",
+        "index": 2
+      },
+      {
+        "id": "record-operations-1",
+        "kind": "link",
+        "label": "Record Operations",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "record-editor-2",
+        "kind": "link",
+        "label": "Record Editor",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "insights-3",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "settings-4",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#",
+        "index": 3
+      },
+      {
+        "id": "support-5",
+        "kind": "link",
+        "label": "Support",
+        "href": "#",
+        "index": 4
+      }
+    ]
+  },
+  {
+    "screenId": "631f2495b1cc4951b1ceafe24c938564",
+    "title": "Insights - Focus Pad",
+    "componentName": "InsightsFocusPad",
+    "file": "src/screens/InsightsFocusPad.tsx",
+    "buttons": 8,
+    "inputs": 0,
+    "links": 8,
+    "actions": [
+      {
+        "id": "notifications-1",
+        "kind": "button",
+        "label": "Notifications",
+        "index": 0
+      },
+      {
+        "id": "settings-2",
+        "kind": "button",
+        "label": "Settings",
+        "index": 1
+      },
+      {
+        "id": "create-record-3",
+        "kind": "button",
+        "label": "Create Record",
+        "index": 2
+      },
+      {
+        "id": "filter-4",
+        "kind": "button",
+        "label": "Filter",
+        "index": 3
+      },
+      {
+        "id": "export-summary-5",
+        "kind": "button",
+        "label": "Export Summary",
+        "index": 4
+      },
+      {
+        "id": "view-all-6",
+        "kind": "button",
+        "label": "View All",
+        "index": 5
+      },
+      {
+        "id": "review-rules-7",
+        "kind": "button",
+        "label": "Review Rules",
+        "index": 6
+      },
+      {
+        "id": "adjust-schedule-8",
+        "kind": "button",
+        "label": "Adjust Schedule",
+        "index": 7
+      },
+      {
+        "id": "record-operations-1",
+        "kind": "link",
+        "label": "Record Operations",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "record-editor-2",
+        "kind": "link",
+        "label": "Record Editor",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "insights-3",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "settings-4",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#",
+        "index": 3
+      },
+      {
+        "id": "support-5",
+        "kind": "link",
+        "label": "Support",
+        "href": "#",
+        "index": 4
+      },
+      {
+        "id": "records-6",
+        "kind": "link",
+        "label": "Records",
+        "href": "#",
+        "index": 5
+      },
+      {
+        "id": "editor-7",
+        "kind": "link",
+        "label": "Editor",
+        "href": "#",
+        "index": 6
+      },
+      {
+        "id": "insights-8",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#",
+        "index": 7
+      }
+    ]
+  },
+  {
+    "screenId": "531d3788343d48d290ca6b7fb659ea30",
+    "title": "Record Operations - Focus Pad",
+    "componentName": "RecordOperationsFocusPad",
+    "file": "src/screens/RecordOperationsFocusPad.tsx",
+    "buttons": 10,
+    "inputs": 1,
+    "links": 5,
+    "actions": [
+      {
+        "id": "search-1",
+        "kind": "button",
+        "label": "Search",
+        "index": 0
+      },
+      {
+        "id": "notifications-2",
+        "kind": "button",
+        "label": "notifications",
+        "index": 1
+      },
+      {
+        "id": "settings-3",
+        "kind": "button",
+        "label": "settings",
+        "index": 2
+      },
+      {
+        "id": "create-record-4",
+        "kind": "button",
+        "label": "Create Record",
+        "index": 3
+      },
+      {
+        "id": "filters-5",
+        "kind": "button",
+        "label": "Filters",
+        "index": 4
+      },
+      {
+        "id": "create-record-6",
+        "kind": "button",
+        "label": "Create Record",
+        "index": 5
+      },
+      {
+        "id": "retry-load-7",
+        "kind": "button",
+        "label": "Retry Load",
+        "index": 6
+      },
+      {
+        "id": "close-preview-8",
+        "kind": "button",
+        "label": "Close preview",
+        "index": 7
+      },
+      {
+        "id": "edit-9",
+        "kind": "button",
+        "label": "Edit",
+        "index": 8
+      },
+      {
+        "id": "approve-10",
+        "kind": "button",
+        "label": "Approve",
+        "index": 9
+      },
+      {
+        "id": "record-operations-1",
+        "kind": "link",
+        "label": "Record Operations",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "record-editor-2",
+        "kind": "link",
+        "label": "Record Editor",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "insights-3",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "settings-4",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#",
+        "index": 3
+      },
+      {
+        "id": "support-5",
+        "kind": "link",
+        "label": "Support",
+        "href": "#",
+        "index": 4
+      }
+    ]
+  }
+]
